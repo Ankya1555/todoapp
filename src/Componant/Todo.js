@@ -19,8 +19,8 @@ function Todo(props) {
         value={inputText} // Controlled input
         onChange={(e) => setInputText(e.target.value)} // Update inputText on change
       />
-      <button className="add-but" onClick={handleAdd}>
-        +
+      <button className="button" onClick={handleAdd}>
+        CLick 
       </button>
     </div>
   );
